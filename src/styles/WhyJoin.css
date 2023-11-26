@@ -1,0 +1,30 @@
+.why-join-banner {
+  width: 100%;
+  margin: 1em auto;
+}
+
+.why-join-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+
+.why-join-item {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 1em auto;
+}
+
+@media (min-width: 768px) {
+  .why-join-content {
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  .why-join-item {
+    width: 30%;
+    text-align: center;
+  }
+}

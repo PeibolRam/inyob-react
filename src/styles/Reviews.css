@@ -1,0 +1,140 @@
+/* Estilos para el contenedor del carrusel */
+.carousel-container {
+  display: flex;
+  overflow: hidden;
+  width: 300px;
+  /* Ajusta el ancho según tus necesidades */
+  margin: 20px 0;
+}
+
+/* Estilos para cada slide */
+.slide {
+  flex: 0 0 auto;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+  display: none;
+  min-height: 380px;
+}
+
+.slide.active {
+  display: flex;
+}
+
+/* Estilos para los botones de navegación */
+button {
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+/* Estilos para los indicadores */
+.indicators {
+  margin-top: 10px;
+}
+
+.indicator {
+  width: 10px;
+  height: 10px;
+  background-color: #D1FFAB;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.indicator.active {
+  background-color: #6ED04F;
+}
+
+.slide-review-content {
+  width: 90%;
+  margin: 1em auto;
+  text-align: left;
+  color: #fff;
+}
+
+.slide-review-content p {
+  color: #fff;
+}
+
+.reviews-carousel.mobile {
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.slide-arrows {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.slide-arrows button {
+  margin: 0 5px;
+  cursor: pointer;
+  color: #6ED04F;
+  border: none;
+  padding: 5px;
+  font-size: 30px;
+  background-color: transparent;
+}
+
+@media (min-width: 768px) {
+  .reviews-carousel.mobile {
+    display: none;
+  }
+}
+
+.slide-review,
+.slide-reviews {
+  background-color: #73c94d;
+  border-radius: 1em;
+  border-top-right-radius: 3em;
+  padding: 1em;
+}
+
+.slide-reviews-mob {
+  width: 80%;
+  margin: 1em auto;
+}
+
+.slide-header-review {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+
+.slide-header-review-content {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  width: 60%;
+  color: #fff;
+}
+
+.slide-header-review-content h3 {
+  margin: 0;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.slide-header-review-content h4 {
+  font-weight: 500;
+}
+
+.slide-header-review img {
+  width: 35%;
+}
+
+.grid-reviews {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  grid-column-gap: 15px;
+  grid-row-gap: 15px;
+}

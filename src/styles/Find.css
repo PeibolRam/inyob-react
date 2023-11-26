@@ -1,0 +1,21 @@
+.find {
+  background: rgb(235, 248, 231);
+  background: linear-gradient(180deg, rgba(235, 248, 231, 1) 0%, rgba(105, 208, 85, 1) 50%);
+  color: #fff;
+}
+
+
+.find ul li {
+  font-weight: 400;
+  margin: 0.5em 0;
+}
+
+@media (min-width: 768px) {
+  .find-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3em 0;
+  }
+
+}
