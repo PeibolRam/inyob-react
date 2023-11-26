@@ -1,5 +1,4 @@
-import React from 'react'
-import Why1 from '../assets/images/why1.png'
+import Why1 from '../assets/images/Why1.png'
 import '../styles/WhyJoin.css'
 
 export const WhyJoin = () => {
