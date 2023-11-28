@@ -17,33 +17,33 @@ export const Reviews = () => {
         <img src={Ana} alt="" />
       </div>
       <div className='slide-review-content'>
-        <p>¡Esta plataforma ha cambiado por completo la forma en que busco empleo! Cargar mis documentos a través de WhatsApp es increíblemente sencillo y conveniente. Además, he tenido una respuesta más rápida de lo que esperaba, ¡la recomiendo mucho!.</p>
+        <p>"¡Esta plataforma ha cambiado por completo la forma en que busco empleo! Cargar mis documentos a través de WhatsApp es increíblemente sencillo y conveniente. Además, he tenido una respuesta más rápida de lo que esperaba, ¡la recomiendo mucho!"</p>
       </div>
     </div>,
     <div key={2} className='slide-reviews-mob' >
       <div className="slide-header-review">
         <div className='slide-header-review-content'>
-          <h3>Ana García</h3>
-          <h4>Especialista en calzado</h4>
+          <h3>Liliana Guerrero</h3>
+          <h4>Operadora de Producción</h4>
           <div className='rating-review'>⭐️⭐️⭐️⭐️⭐️</div>
         </div>
         <img src={Ana} alt="" />
       </div>
       <div className='slide-review-content'>
-        <p>¡Esta plataforma ha cambiado por completo la forma en que busco empleo! Cargar mis documentos a través de WhatsApp es increíblemente sencillo y conveniente. Además, he tenido una respuesta más rápida de lo que esperaba, ¡la recomiendo mucho!.</p>
+        <p>"Lo que más aprecio de Inyob es la transparencia y la rapidez en su proceso. Las ofertas laborales son claras y se adaptan a lo que busco. Además, el proceso de entrevista y contratación es innovador y eficiente. Nunca había experimentado algo así en mi búsqueda de empleo.".</p>
       </div>
     </div>,
     <div key={3} className='slide-reviews-mob' >
       <div className="slide-header-review">
         <div className='slide-header-review-content'>
-          <h3>Ana García</h3>
-          <h4>Especialista en calzado</h4>
+          <h3>Eduardo Torres</h3>
+          <h4>Técnico de Mantenimiento</h4>
           <div className='rating-review'>⭐️⭐️⭐️⭐️⭐️</div>
         </div>
         <img src={Ana} alt="" />
       </div>
       <div className='slide-review-content'>
-        <p>¡Esta plataforma ha cambiado por completo la forma en que busco empleo! Cargar mis documentos a través de WhatsApp es increíblemente sencillo y conveniente. Además, he tenido una respuesta más rápida de lo que esperaba, ¡la recomiendo mucho!.</p>
+        <p>"Inyob es mucho más que una plataforma de empleo. Es una comunidad donde no solo encontré un trabajo ideal, sino también capacitación y consejos valiosos de otros miembros. Estoy realmente agradecido por esta experiencia."</p>
       </div>
     </div>
   ];
