@@ -44,6 +44,10 @@
   width: 80%;
 }
 
+.vacante ul li {
+  font-size: 12px;
+}
+
 .vacante-img {
   margin-bottom: 1em;
   width: 100%;
