@@ -144,4 +144,13 @@ button {
   .how-works-carousel.mobile {
     display: none;
   }
+
+  .how-works-container {
+    flex-direction: row;
+  }
+
+  .how-works-content {
+    text-align: left;
+    margin-left: 3em;
+  }
 }
