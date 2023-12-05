@@ -110,27 +110,27 @@ export const Reviews = () => {
             <div className='slide-reviews' >
               <div className="slide-header-review">
                 <div className='slide-header-review-content'>
-                  <h3>Ana García</h3>
-                  <h4>Especialista en calzado</h4>
+                  <h3>Alejandra Mendoza</h3>
+                  <h4>Asesora de venta </h4>
                   <div className='rating-review'>⭐️⭐️⭐️⭐️⭐️</div>
                 </div>
                 <img src={Ana} alt="" />
               </div>
               <div className='slide-review-content'>
-                <p>¡Esta plataforma ha cambiado por completo la forma en que busco empleo! Cargar mis documentos a través de WhatsApp es increíblemente sencillo y conveniente. Además, he tenido una respuesta más rápida de lo que esperaba, ¡la recomiendo mucho!.</p>
+                <p>"Desde que conocí Inyob, mi vida laboral cambió por completo. El proceso asistido vía WhatsApp hizo que todo fuera más sencillo y rápido. En menos de una semana, encontré un empleo que realmente se ajusta a mis habilidades y aspiraciones, además está cerca de mi casa. ¡Gracias, Inyob!"</p>
               </div>
             </div>
             <div className='slide-reviews' >
               <div className="slide-header-review">
                 <div className='slide-header-review-content'>
-                  <h3>Ana García</h3>
-                  <h4>Especialista en calzado</h4>
+                  <h3>Eduardo Torres</h3>
+                  <h4>Técnico de Mantenimiento </h4>
                   <div className='rating-review'>⭐️⭐️⭐️⭐️⭐️</div>
                 </div>
                 <img src={Ana} alt="" />
               </div>
               <div className='slide-review-content'>
-                <p>¡Esta plataforma ha cambiado por completo la forma en que busco empleo! Cargar mis documentos a través de WhatsApp es increíblemente sencillo y conveniente. Además, he tenido una respuesta más rápida de lo que esperaba, ¡la recomiendo mucho!.</p>
+                <p>"Inyob es mucho más que una plataforma de empleo. Es una comunidad donde no solo encontré un trabajo ideal, sino también capacitación y consejos valiosos de otros miembros. Estoy realmente agradecido por esta experiencia."</p>
               </div>
             </div>
           </div>

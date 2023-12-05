@@ -1,5 +1,8 @@
 import Why2 from '../assets/images/why2.png'
 import Tienda from '../assets/images/tienda.png'
+import Turismo from '../assets/images/Turismo.jpg'
+import Logistica from '../assets/images/Logistica.jpg'
+import Construccion from '../assets/images/Construccion.jpg'
 
 import '../styles/Invite.css'
 
@@ -27,48 +30,48 @@ export const Invite = () => {
             </ul>
           </div>
           <div className='vacante'>
-            <img src={Tienda} className='vacante-img' alt="Inyob" />
-            <h3>Tiendas</h3>
+            <img src={Logistica} className='vacante-img' alt="Inyob" />
+            <h3>Logística</h3>
             <ul>
-              <li>✅ Vendedor o Asesor de Ventas</li>
-              <li>✅ Almacenista</li>
-              <li>✅ Gerente de Tienda</li>
+              <li>✅ Conductor de camiones</li>
+              <li>✅ Operador de montacargas</li>
+              <li>✅ Gestor de inventarios</li>
             </ul>
           </div>
           <div className='vacante'>
             <img src={Tienda} className='vacante-img' alt="Inyob" />
-            <h3>Tiendas</h3>
+            <h3>Manufactura</h3>
             <ul>
               <li>✅ Vendedor o Asesor de Ventas</li>
               <li>✅ Almacenista</li>
-              <li>✅ Gerente de Tienda</li>
+              <li>✅ Gerente</li>
+            </ul>
+          </div>
+          <div className='vacante'>
+            <img src={Turismo} className='vacante-img' alt="Inyob" />
+            <h3>Turismo/Restaurante</h3>
+            <ul>
+              <li>✅ Chef</li>
+              <li>✅ Recepcionista</li>
+              <li>✅ Mesero</li>
+            </ul>
+          </div>
+          <div className='vacante'>
+            <img src={Construccion} className='vacante-img' alt="Inyob" />
+            <h3>Construcción</h3>
+            <ul>
+              <li>✅ Carpintero</li>
+              <li>✅ Electricista</li>
+              <li>✅ Encargado de obra</li>
             </ul>
           </div>
           <div className='vacante'>
             <img src={Tienda} className='vacante-img' alt="Inyob" />
-            <h3>Tiendas</h3>
+            <h3>Servicios</h3>
             <ul>
-              <li>✅ Vendedor o Asesor de Ventas</li>
-              <li>✅ Almacenista</li>
-              <li>✅ Gerente de Tienda</li>
-            </ul>
-          </div>
-          <div className='vacante'>
-            <img src={Tienda} className='vacante-img' alt="Inyob" />
-            <h3>Tiendas</h3>
-            <ul>
-              <li>✅ Vendedor o Asesor de Ventas</li>
-              <li>✅ Almacenista</li>
-              <li>✅ Gerente de Tienda</li>
-            </ul>
-          </div>
-          <div className='vacante'>
-            <img src={Tienda} className='vacante-img' alt="Inyob" />
-            <h3>Tiendas</h3>
-            <ul>
-              <li>✅ Vendedor o Asesor de Ventas</li>
-              <li>✅ Almacenista</li>
-              <li>✅ Gerente de Tienda</li>
+              <li>✅ Enfermera</li>
+              <li>✅ Cajero bancario</li>
+              <li>✅ Analista de TI</li>
             </ul>
           </div>
         </div>

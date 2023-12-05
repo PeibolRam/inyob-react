@@ -45,6 +45,7 @@
   color: black;
   text-align: left;
   padding: 2em 1em;
+  min-height: 250px;
 }
 
 .values-item-header {
@@ -54,13 +55,13 @@
 }
 
 .values-item-header h3 {
-  width: 60%;
   text-align: left;
   margin-bottom: 0;
 }
 
 .values-item-header img {
-  width: 30%;
+  width: 40px;
+  object-fit: contain;
 }
 
 @media (min-width: 768px) {
@@ -71,5 +72,12 @@
 
   .values-item {
     width: 25%;
+    min-height: 390px;
+  }
+}
+
+@media (min-width: 1100px) {
+  .values-item {
+    min-height: 270px;
   }
 }

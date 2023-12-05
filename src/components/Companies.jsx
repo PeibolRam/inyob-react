@@ -28,7 +28,7 @@ export const Companies = () => {
 
         <div className='values'>
           <div className='values-item'>
-            <div className='content'>
+            <div className='content-values-item'>
               <div className='values-item-header'>
                 <h3>Respeto laboral <span className='green-text'>garantizado</span></h3>
                 <img src={Value1} alt="Respeto" />
@@ -37,21 +37,21 @@ export const Companies = () => {
             </div>
           </div>
           <div className='values-item'>
-            <div className='content'>
+            <div className='content-values-item'>
               <div className='values-item-header'>
-                <h3>Respeto laboral <span className='green-text'>garantizado</span></h3>
+                <h3><span className='green-text'>Transparencia</span> en la oferta</h3>
                 <img src={Value1} alt="Respeto" />
               </div>
-              <p>Todas las empresas que trabajan con nosotros respetan las condiciones laborales, <b>garantizando un ambiente de trabajo seguro y digno</b> para sus trabajadores.</p>
+              <p>Aseguramos que lo prometido en la vacante se cumpla en la realidad, desde el paquete económico hasta los demás beneficios propuestos.</p>
             </div>
           </div>
           <div className='values-item'>
-            <div className='content'>
+            <div className='content-values-item'>
               <div className='values-item-header'>
-                <h3>Respeto laboral <span className='green-text'>garantizado</span></h3>
+                <h3>Selección<span className='green-text'> cuidadosa</span></h3>
                 <img src={Value1} alt="Respeto" />
               </div>
-              <p>Todas las empresas que trabajan con nosotros respetan las condiciones laborales, <b>garantizando un ambiente de trabajo seguro y digno</b> para sus trabajadores.</p>
+              <p>No cualquier empresa tiene un espacio en inyob. Seleccionamos a nuestros socios con mucho cuidado, permitiendo solo a las empresas más comprometidas y serias, compartir sus ofertas laborales con nuestra comunidad.</p>
             </div>
           </div>
         </div>
