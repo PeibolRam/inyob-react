@@ -9,7 +9,7 @@ export const Companies = () => {
   return (
     <section className='section-bg-green'>
       <div className='content'>
-        <h2>¡Empresas líderes confían en <span className="font-bold white-text">Inyob</span>!</h2>
+        <h2>¡Empresas líderes confían en <span className="font-bold">Inyob</span>!</h2>
       </div>
 
       <div className="companies-logos">

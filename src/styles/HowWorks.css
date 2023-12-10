@@ -58,11 +58,15 @@
 /* Estilos para cada slide */
 .slide {
   flex: 0 0 auto;
-  width: 100%;
+  width: 90%;
   box-sizing: border-box;
   padding: 10px;
   display: none;
   min-height: 380px;
+  -webkit-transition: all .5s ease;
+  -moz-transition: all .5s ease;
+  transition: all .5s ease;
+  margin: 0 auto;
 }
 
 .slide.active {
