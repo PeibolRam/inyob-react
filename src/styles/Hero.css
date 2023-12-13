@@ -1,7 +1,6 @@
 .hero {
   background: rgb(255, 255, 255);
-  background: linear-gradient(225deg, rgba(255, 255, 255, 1) 0%, rgba(235, 248, 231, 1) 68%);
-  padding: 2em 0 0;
+  background: linear-gradient(225deg, rgba(255, 255, 255, 1) 0%, rgba(235, 248, 231, 1) 1%);
   color: #3A3A3A;
 }
 
@@ -37,7 +36,6 @@
 .hero-image {
   z-index: 9;
   margin: 0 auto;
-
 }
 
 @media (min-width: 768px) {
@@ -51,5 +49,13 @@
 
   .hero-content {
     text-align: left;
+  }
+}
+
+@media (min-width: 1024px) {
+  .hero {
+    padding: 100px 0;
+    display: flex;
+    align-items: center;
   }
 }

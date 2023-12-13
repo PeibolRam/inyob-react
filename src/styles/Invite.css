@@ -1,3 +1,7 @@
+.inv-pos {
+  margin: 2em auto;
+}
+
 .inv-pos-banner {
   width: 80%;
   margin: 1em auto;
@@ -60,6 +64,7 @@
 @media (min-width: 768px) {
   .inv-pos-container {
     flex-direction: row-reverse;
+    margin-bottom: 2em;
   }
 
   .inv-pos-banner {

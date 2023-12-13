@@ -3,6 +3,9 @@ import Tienda from '../assets/images/tienda.png'
 import Turismo from '../assets/images/Turismo.jpg'
 import Logistica from '../assets/images/Logistica.jpg'
 import Construccion from '../assets/images/Construccion.jpg'
+import Manofactura from '../assets/images/manofactura.jpg'
+import Servicios from '../assets/images/Servicios.jpeg'
+
 
 import '../styles/Invite.css'
 
@@ -39,7 +42,7 @@ export const Invite = () => {
             </ul>
           </div>
           <div className='vacante'>
-            <img src={Tienda} className='vacante-img' alt="Inyob" />
+            <img src={Manofactura} className='vacante-img' alt="Inyob" />
             <h3>Manufactura</h3>
             <ul>
               <li>✅ Vendedor o Asesor de Ventas</li>
@@ -66,7 +69,7 @@ export const Invite = () => {
             </ul>
           </div>
           <div className='vacante'>
-            <img src={Tienda} className='vacante-img' alt="Inyob" />
+            <img src={Servicios} className='vacante-img' alt="Inyob" />
             <h3>Servicios</h3>
             <ul>
               <li>✅ Enfermera</li>

@@ -4,7 +4,6 @@
   color: #fff;
 }
 
-
 .find ul li {
   font-weight: 400;
   margin: 0.5em 0;
@@ -17,5 +16,12 @@
     align-items: center;
     padding: 3em 0;
   }
+}
 
+@media (min-width: 1024px) {
+  .find {
+    padding: 100px 0;
+    display: flex;
+    align-items: center;
+  }
 }
