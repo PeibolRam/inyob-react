@@ -11,7 +11,7 @@ export const WhyJoin = () => {
       >
         <div className='overlay'>
           <div className="content">
-            <h2>¿Por qué unirte a <span className='green-text'>nuestra red?</span></h2>
+            <h2>¿Por qué unirte <br /> a <span className='green-text'>nuestra red?</span></h2>
             <div className='why-join-content'>
               <div className='why-join-item align-left'>
                 <h4 className='green-text'>Educación Continua</h4>

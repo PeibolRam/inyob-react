@@ -171,10 +171,16 @@ footer {
 }
 
 .inyob-footer {
-  background: #000;
+  background: #3a3a3a;
   width: 100%;
   margin-top: 2em;
   display: flex;
   justify-content: center;
   align-items: center;
+  color: #fff;
+}
+
+.inyob-footer p {
+  color: #fff;
+  font-size: 14px;
 }
