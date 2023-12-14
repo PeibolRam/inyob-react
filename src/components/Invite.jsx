@@ -17,7 +17,7 @@ export const Invite = () => {
           <img src={Why2} className='inv-pos-banner' alt="Inyob" />
           <div className='inv-pos-content'>
             <h3>Te invitamos a <span className='green-text'>unirte a nuestra comunidad, a crecer, a aprender y a transformar</span> no solo tu carrera, sino también la de aquellos a tu alrededor.</h3>
-            <a className='btn' href="">¡Mejora tu vida con un click!</a>
+            <a className='btn' href="https://wa.link/241l8t">¡Mejora tu vida con un click!</a>
           </div>
 
         </div>

@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import Ana from '../assets/images/AnaGarcia.png'
+import Carpintero from '../assets/images/Carpintero.png'
 import Asesora from '../assets/images/Asesora.png'
 import Tecnico from '../assets/images/Tecnico.png'
 
@@ -12,14 +13,14 @@ export const Reviews = () => {
     <div key={1} className='slide-reviews-mob' >
       <div className="slide-header-review">
         <div className='slide-header-review-content'>
-          <h3>Ana García</h3>
-          <h4>Especialista en calzado</h4>
+          <h3>Juan García</h3>
+          <h4>Carpintero</h4>
           <div className='rating-review'>⭐️⭐️⭐️⭐️⭐️</div>
         </div>
-        <img src={Ana} alt="" />
+        <img src={Carpintero} alt="" />
       </div>
       <div className='slide-review-content'>
-        <p>"¡Esta plataforma ha cambiado por completo la forma en que busco empleo! Cargar mis documentos a través de WhatsApp es increíblemente sencillo y conveniente. Además, he tenido una respuesta más rápida de lo que esperaba, ¡la recomiendo mucho!"</p>
+        <p>¡Esta plataforma ha cambiado por completo la forma en que busco empleo! Cargar mis documentos a través de WhatsApp es increíblemente sencillo y conveniente. Además, he tenido una respuesta más rápida de lo que esperaba, ¡la recomiendo mucho!.</p>
       </div>
     </div>,
     <div key={2} className='slide-reviews-mob' >
@@ -99,11 +100,11 @@ export const Reviews = () => {
             <div className='slide-reviews' >
               <div className="slide-header-review">
                 <div className='slide-header-review-content'>
-                  <h3>Ana García</h3>
-                  <h4>Especialista en calzado</h4>
+                  <h3>Juan García</h3>
+                  <h4>Carpintero</h4>
                   <div className='rating-review'>⭐️⭐️⭐️⭐️⭐️</div>
                 </div>
-                <img src={Ana} alt="" />
+                <img src={Carpintero} alt="" />
               </div>
               <div className='slide-review-content'>
                 <p>¡Esta plataforma ha cambiado por completo la forma en que busco empleo! Cargar mis documentos a través de WhatsApp es increíblemente sencillo y conveniente. Además, he tenido una respuesta más rápida de lo que esperaba, ¡la recomiendo mucho!.</p>
@@ -113,7 +114,7 @@ export const Reviews = () => {
               <div className="slide-header-review">
                 <div className='slide-header-review-content'>
                   <h3>Alejandra Mendoza</h3>
-                  <h4>Asesora de venta </h4>
+                  <h4>Coordinadora de supermercado </h4>
                   <div className='rating-review'>⭐️⭐️⭐️⭐️⭐️</div>
                 </div>
                 <img src={Asesora} alt="" />

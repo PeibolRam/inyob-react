@@ -24,7 +24,7 @@ export const Companies = () => {
         <div className='companies-btn' style={{
           backgroundImage: `url(${BtnImage})`
         }}>
-          <a className='btn' href="">¡Comienza aquí!</a>
+          <a className='btn' href="https://wa.link/241l8t">¡Comienza aquí!</a>
         </div>
         <p>En <span className="font-bold">Inyob</span>, nos tomamos en serio tu búsqueda de empleo y trabajamos con las empresas líderes, representativas de cada ciudad e industria. </p>
         <p>Las empresas que trabajan con nosotros nos garantizan lo siguiente para ti:</p>
