@@ -142,7 +142,7 @@ export const HowWorks = () => {
           <div className='how-works-btn' style={{
             backgroundImage: `url(${StartHere})`
           }}>
-            <a className='btn' href="https://wa.link/241l8t">Conversa con Alma</a>
+            <a className='btn' href="https://wa.link/241l8t" style={{width: "75%"}}>Conversa con Alma</a>
           </div>
           <div className='how-works-content'>
             <h3><span className='green-text bold'>Tu nuevo trabajo en cuestión de días</span> y no en semanas o meses de esfuerzo</h3>
