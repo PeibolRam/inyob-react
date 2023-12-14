@@ -1,12 +1,18 @@
 .find {
-  background: rgb(235, 248, 231);
-  background: linear-gradient(180deg, rgba(235, 248, 231, 1) 0%, rgba(105, 208, 85, 1) 50%);
   color: #fff;
+  position: relative;
+  background-color: #868686;
 }
 
 .find ul li {
   font-weight: 400;
   margin: 0.5em 0;
+}
+
+#video-find {
+  width: 100%;
+  border-radius: 2em;
+  margin: 2em auto 1em;
 }
 
 @media (min-width: 768px) {
@@ -16,6 +22,11 @@
     align-items: center;
     padding: 3em 0;
   }
+
+#video-find {
+  width: 50%;
+  margin: 0 2em;
+}
 }
 
 @media (min-width: 1024px) {
@@ -25,3 +36,4 @@
     align-items: center;
   }
 }
+
