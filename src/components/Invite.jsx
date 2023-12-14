@@ -52,7 +52,7 @@ export const Invite = () => {
           </div>
           <div className='vacante'>
             <img src={Turismo} className='vacante-img' alt="Inyob" />
-            <h3>Turismo/Restaurante</h3>
+            <h3>Turismo / Restaurante</h3>
             <ul>
               <li>✅ Chef</li>
               <li>✅ Recepcionista</li>
