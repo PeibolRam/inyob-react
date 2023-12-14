@@ -26,11 +26,11 @@ export const Reviews = () => {
     <div key={2} className='slide-reviews-mob' >
       <div className="slide-header-review">
         <div className='slide-header-review-content'>
-          <h3>Liliana Guerrero</h3>
-          <h4>Operadora de Producción</h4>
+          <h3>Alejandra Mendoza</h3>
+          <h4>Coordinadora de supermercado </h4>
           <div className='rating-review'>⭐️⭐️⭐️⭐️⭐️</div>
         </div>
-        <img src={Ana} alt="" />
+        <img src={Asesora} alt="" />
       </div>
       <div className='slide-review-content'>
         <p>"Lo que más aprecio de Inyob es la transparencia y la rapidez en su proceso. Las ofertas laborales son claras y se adaptan a lo que busco. Además, el proceso de entrevista y contratación es innovador y eficiente. Nunca había experimentado algo así en mi búsqueda de empleo.".</p>
@@ -43,7 +43,7 @@ export const Reviews = () => {
           <h4>Técnico de Mantenimiento</h4>
           <div className='rating-review'>⭐️⭐️⭐️⭐️⭐️</div>
         </div>
-        <img src={Ana} alt="" />
+        <img src={Tecnico} alt="" />
       </div>
       <div className='slide-review-content'>
         <p>"Inyob es mucho más que una plataforma de empleo. Es una comunidad donde no solo encontré un trabajo ideal, sino también capacitación y consejos valiosos de otros miembros. Estoy realmente agradecido por esta experiencia."</p>
