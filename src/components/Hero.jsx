@@ -1,7 +1,6 @@
-import React from 'react'
 import heroVector from '../assets/images/hero_vector.png'
 import vectorLeft from '../assets/images/vector-left.png'
-import vectorRight from '../assets/images/vector-right.png'
+import vectorRight from '../assets/images/vectores.svg'
 import heroImage from '../assets/images/hero-image.png'
 
 import '../styles/Hero.css'

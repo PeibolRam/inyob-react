@@ -1,10 +1,10 @@
 import { useState } from 'react'
-import HowImage1 from '../assets/images/hw1.png'
-import HowImage2 from '../assets/images/hw2.png'
-import HowImage3 from '../assets/images/hw3.png'
-import HowImage4 from '../assets/images/hw4.png'
-import HowImage6 from '../assets/images/hw6.png'
-import HowImage7 from '../assets/images/hw7.png'
+import HowImage1 from '../assets/images/telefono.svg'
+import HowImage2 from '../assets/images/conversacion.svg'
+import HowImage3 from '../assets/images/video.svg'
+import HowImage4 from '../assets/images/documentos.svg'
+import HowImage5 from '../assets/images/entrevista.svg'
+import HowImage6 from '../assets/images/contrato.svg'
 import StartHere from '../assets/images/hw-btn.png'
 
 
@@ -40,13 +40,13 @@ export const HowWorks = () => {
     </div>,
     <div key={5} className='slide-how-works-mob' >
       <div className='slide-content'>
-        <img src={HowImage6} alt="Inyob" />
+        <img src={HowImage5} alt="Inyob" />
         <p><span className='green-text bold'>5.</span> <b>Coordinamos las entrevistas</b> con las empresas interesadas en ti, además <b>¡te ayudamos a prepararte para que todo sea un éxito!</b></p>
       </div>
     </div>,
     <div key={6} className='slide-how-works-mob' >
       <div className='slide-content'>
-        <img src={HowImage7} alt="Inyob" />
+        <img src={HowImage6} alt="Inyob" />
         <p><span className='green-text bold'>6.</span> Firmas tu contrato y arrancas <b>¡con tu nuevo trabajo!</b></p>
       </div>
     </div>
@@ -125,13 +125,13 @@ export const HowWorks = () => {
             </div>
             <div className='slide-how-works-mob' >
               <div className='slide-content'>
-                <img src={HowImage6} alt="Inyob" />
+                <img src={HowImage5} alt="Inyob" />
                 <p><span className='green-text bold'>5.</span> <b>Coordinamos las entrevistas</b> con las empresas interesadas en ti, además <b>¡te ayudamos a prepararte para que todo sea un éxito!</b></p>
               </div>
             </div>
             <div className='slide-how-works-mob' >
               <div className='slide-content'>
-                <img src={HowImage7} alt="Inyob" />
+                <img src={HowImage6} alt="Inyob" />
                 <p><span className='green-text bold'>6.</span> Firmas tu contrato y arrancas <b>¡con tu nuevo trabajo!</b></p>
               </div>
             </div>

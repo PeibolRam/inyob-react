@@ -1,7 +1,11 @@
 import AutoplayCarousel from './AutoplayCarousel'
 import BtnImage from '../assets/images/btnImage.png'
 
-import Value1 from '../assets/images/Respeto.png'
+import Value1 from '../assets/images/respetolaboral.svg'
+import Value2 from '../assets/images/transparencia.svg'
+import Value3 from '../assets/images/seleccion.svg'
+
+
 
 import '../styles/Companies.css'
 
@@ -40,7 +44,7 @@ export const Companies = () => {
             <div className='content-values-item'>
               <div className='values-item-header'>
                 <h3><span className='green-text'>Transparencia</span> en la oferta</h3>
-                <img src={Value1} alt="Respeto" />
+                <img src={Value2} alt="Respeto" />
               </div>
               <p>Aseguramos que lo prometido en la vacante se cumpla en la realidad, desde el paquete económico hasta los demás beneficios propuestos.</p>
             </div>
@@ -49,7 +53,7 @@ export const Companies = () => {
             <div className='content-values-item'>
               <div className='values-item-header'>
                 <h3>Selección<span className='green-text'> cuidadosa</span></h3>
-                <img src={Value1} alt="Respeto" />
+                <img src={Value3} alt="Respeto" />
               </div>
               <p>No cualquier empresa tiene un espacio en inyob. Seleccionamos a nuestros socios con mucho cuidado, permitiendo solo a las empresas más comprometidas y serias, compartir sus ofertas laborales con nuestra comunidad.</p>
             </div>
