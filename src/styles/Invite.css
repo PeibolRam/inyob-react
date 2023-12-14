@@ -44,7 +44,7 @@
 }
 
 .vacante ul {
-  padding: 0;
+  padding: 2em 0;
   margin: 0.5em auto 1em;
   width: 80%;
 }
@@ -64,7 +64,7 @@
 @media (min-width: 768px) {
   .inv-pos-container {
     flex-direction: row-reverse;
-    margin-bottom: 2em;
+    margin: 8em auto;
   }
 
   .inv-pos-banner {

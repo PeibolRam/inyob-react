@@ -44,7 +44,7 @@
   border-radius: 1em;
   color: black;
   text-align: left;
-  padding: 2em 1em;
+  padding: 2em;
   min-height: 250px;
 }
 
@@ -72,7 +72,7 @@
 
   .values-item {
     width: 25%;
-    min-height: 390px;
+    min-height: 320px;
   }
 }
 

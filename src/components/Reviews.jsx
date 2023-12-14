@@ -62,7 +62,7 @@ export const Reviews = () => {
     setCurrentIndex(index);
   };
   return (
-    <section className='section'>
+    <section className='section reviews-section'>
       <div className="content">
         <h2>Lo que dice <span className='green-text'>nuestra comunidad</span> sobre nosotros:</h2>
         <p>Actualmente ofrecemos nuestro servicio en la ciudad de <b>León, Guanajuato</b> y sus alrededores. Pronto nos encontraras en las principales ciudades de México.</p>

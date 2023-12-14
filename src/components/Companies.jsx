@@ -28,7 +28,6 @@ export const Companies = () => {
         </div>
         <p>En <span className="font-bold">Inyob</span>, nos tomamos en serio tu búsqueda de empleo y trabajamos con las empresas líderes, representativas de cada ciudad e industria. </p>
         <p>Las empresas que trabajan con nosotros nos garantizan lo siguiente para ti:</p>
-        <div className='proximamente'>poner garantias de empresas aquí</div>
 
         <div className='values'>
           <div className='values-item'>

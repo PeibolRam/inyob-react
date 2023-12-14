@@ -2,6 +2,7 @@
   background: rgb(255, 255, 255);
   background: linear-gradient(225deg, rgba(255, 255, 255, 1) 0%, rgba(235, 248, 231, 1) 1%);
   color: #3A3A3A;
+  position: relative;
 }
 
 .psn-abs {
@@ -10,12 +11,12 @@
 }
 
 .bg-vector {
-  position: relative;
   width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: center;
+  position: relative;
 }
 
 .psn-abs-left {
@@ -39,6 +40,12 @@
 }
 
 @media (min-width: 768px) {
+  .hero {
+    padding: 100px 0;
+    display: flex;
+    align-items: center;
+  }
+
   .hero-container {
     display: flex;
   }
@@ -50,12 +57,14 @@
   .hero-content {
     text-align: left;
   }
-}
 
-@media (min-width: 1024px) {
-  .hero {
-    padding: 100px 0;
-    display: flex;
-    align-items: center;
+  .hero-image {
+    position: absolute;
+    bottom: 0;
+    max-width: 400px;
+  }
+
+  .bg-vector {
+    position: static;
   }
 }

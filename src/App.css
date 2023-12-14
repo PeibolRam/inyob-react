@@ -85,6 +85,19 @@ h4 {
   width: max-content;
 }
 
+.btn-left {
+  background-color: #6ED04F;
+  color: #fff;
+  padding: 0.5em 1em;
+  border-radius: 3em;
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: max-content;
+}
+
 .btn svg {
   color: #3A3A3A;
   background-color: #fff;

@@ -1,3 +1,7 @@
+.reviews-section {
+  margin-top: 3em;
+}
+
 /* Estilos para el contenedor del carrusel */
 .carousel-container {
   display: flex;

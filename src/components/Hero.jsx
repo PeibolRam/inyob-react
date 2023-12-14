@@ -16,7 +16,7 @@ export const Hero = () => {
           <p>En <span className='font-bold'>Inyob</span>, nuestro equipo y nuestra tecnología te ayudan a realizar tus aspiraciones y te abren puertas que ni siquiera sabías que estaban ahí.</p>
           <p>En <span className='font-bold'>Inyob</span>, no sólo encontramos el trabajo adecuado para ti, <span className='font-bold'>te preparamos para brillar en él.</span></p>
           <p className='font-bold'>¡Descubre más y transforma tu trayectoria con nosotros!</p>
-          <a className='btn' href="">¡Mejora tu vida con un click! </a>
+          <a className='btn-left' href="">¡Mejora tu vida con un click! </a>
         </div>
         <div className="bg-vector">
           <img className='psn-abs-left' src={vectorLeft} alt="Inyob" />
