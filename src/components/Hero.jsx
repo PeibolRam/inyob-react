@@ -1,7 +1,7 @@
 import heroVector from '../assets/images/hero_vector.png'
 import vectorLeft from '../assets/images/vector-left.png'
 import vectorRight from '../assets/images/vectores.svg'
-import heroImage from '../assets/images/hero-image.png'
+import heroImage from '../assets/images/manos2.png'
 
 import '../styles/Hero.css'
 
