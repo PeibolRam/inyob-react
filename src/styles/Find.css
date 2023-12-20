@@ -1,7 +1,7 @@
 .find {
-  color: #fff;
+  color: #000;
   position: relative;
-  background-color: #868686;
+  background-color: #fff;
   padding: 2em 0;
 }
 
@@ -24,10 +24,10 @@
     padding: 3em 0;
   }
 
-#video-find {
-  width: 50%;
-  margin: 0 2em;
-}
+  #video-find {
+    width: 50%;
+    margin: 0 2em;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -37,4 +37,3 @@
     align-items: center;
   }
 }
-

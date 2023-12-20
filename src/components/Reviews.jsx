@@ -33,7 +33,7 @@ export const Reviews = () => {
         <img src={Asesora} alt="" />
       </div>
       <div className='slide-review-content'>
-        <p>"Lo que más aprecio de Inyob es la transparencia y la rapidez en su proceso. Las ofertas laborales son claras y se adaptan a lo que busco. Además, el proceso de entrevista y contratación es innovador y eficiente. Nunca había experimentado algo así en mi búsqueda de empleo.".</p>
+        <p>"Lo que más aprecio de inyob es la transparencia y la rapidez en su proceso. Las ofertas laborales son claras y se adaptan a lo que busco. Además, el proceso de entrevista y contratación es innovador y eficiente. Nunca había experimentado algo así en mi búsqueda de empleo.".</p>
       </div>
     </div>,
     <div key={3} className='slide-reviews-mob' >
@@ -46,7 +46,7 @@ export const Reviews = () => {
         <img src={Tecnico} alt="" />
       </div>
       <div className='slide-review-content'>
-        <p>"Inyob es mucho más que una plataforma de empleo. Es una comunidad donde no solo encontré un trabajo ideal, sino también capacitación y consejos valiosos de otros miembros. Estoy realmente agradecido por esta experiencia."</p>
+        <p>"inyob es mucho más que una plataforma de empleo. Es una comunidad donde no solo encontré un trabajo ideal, sino también capacitación y consejos valiosos de otros miembros. Estoy realmente agradecido por esta experiencia."</p>
       </div>
     </div>
   ];
@@ -120,7 +120,7 @@ export const Reviews = () => {
                 <img src={Asesora} alt="" />
               </div>
               <div className='slide-review-content'>
-                <p>"Desde que conocí Inyob, mi vida laboral cambió por completo. El proceso asistido vía WhatsApp hizo que todo fuera más sencillo y rápido. En menos de una semana, encontré un empleo que realmente se ajusta a mis habilidades y aspiraciones, además está cerca de mi casa. ¡Gracias, Inyob!"</p>
+                <p>"Desde que conocí inyob, mi vida laboral cambió por completo. El proceso asistido vía WhatsApp hizo que todo fuera más sencillo y rápido. En menos de una semana, encontré un empleo que realmente se ajusta a mis habilidades y aspiraciones, además está cerca de mi casa. ¡Gracias, inyob!"</p>
               </div>
             </div>
             <div className='slide-reviews' >
@@ -133,7 +133,7 @@ export const Reviews = () => {
                 <img src={Tecnico} alt="" />
               </div>
               <div className='slide-review-content'>
-                <p>"Inyob es mucho más que una plataforma de empleo. Es una comunidad donde no solo encontré un trabajo ideal, sino también capacitación y consejos valiosos de otros miembros. Estoy realmente agradecido por esta experiencia."</p>
+                <p>"inyob es mucho más que una plataforma de empleo. Es una comunidad donde no solo encontré un trabajo ideal, sino también capacitación y consejos valiosos de otros miembros. Estoy realmente agradecido por esta experiencia."</p>
               </div>
             </div>
           </div>

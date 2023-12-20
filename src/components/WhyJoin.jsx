@@ -19,7 +19,7 @@ export const WhyJoin = () => {
               </div>
               <div className='why-join-item align-left'>
                 <h4 className='green-text'>Comunidad de Apoyo</h4>
-                <p>Sabemos que compartir experiencias, tanto buenas como malas, es fundamental. En <span className="font-bold">Inyob</span>, podrás conocer opiniones sobre diferentes empleadores, lo que te permitirá tomar decisiones informadas.</p>
+                <p>Sabemos que compartir experiencias, tanto buenas como malas, es fundamental. En <span className="font-bold">inyob</span>, podrás conocer opiniones sobre diferentes empleadores, lo que te permitirá tomar decisiones informadas.</p>
               </div>
               <div className='why-join-item align-left'>
                 <h4 className='green-text'>Conexiones Valiosas</h4>

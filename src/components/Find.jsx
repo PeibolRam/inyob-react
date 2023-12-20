@@ -7,11 +7,11 @@ export const Find = () => {
   return (
     <section className='find '>
       <div className="content find-container">
-        <video autoPlay muted loop id='video-find'>
-          <source src={videoBackground} type='video/mp4'/>
+        <video autoPlay muted loop controls id='video-find'>
+          <source src={videoBackground} type='video/mp4' />
         </video>
         <div className='find-content'>
-          <h1>¡Encuentra tu nuevo trabajo por <span className='font-bold'>WhatsApp</span>!</h1>
+          <h1>¡Encuentra <span className='font-bold'>tu nuevo trabajo</span> por <span className='font-bold'>WhatsApp</span>!</h1>
           <ul>
             <li>✅ 100% confiable</li>
             <li>✅ Asistencia personalizada</li>

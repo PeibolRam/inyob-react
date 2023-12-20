@@ -17,7 +17,7 @@ export const HowWorks = () => {
     <div key={1} className='slide-how-works-mob' >
       <div className='slide-content'>
         <img src={HowImage1} alt="Inyob" />
-        <p><span className='green-text bold'>1.</span> Inicia una conversación con <b>Valeria</b>, tu asistente personal de Inyob. Ella te ayudará a crear un perfil personalizado para encontrar el trabajo perfecto para ti.</p>
+        <p><span className='green-text bold'>1.</span> Inicia una conversación con <b>Valeria</b>, tu asistente personal de inyob. Ella te ayudará a crear un perfil personalizado para encontrar el trabajo perfecto para ti.</p>
       </div>
     </div>,
     <div key={2} className='slide-how-works-mob' >
@@ -68,7 +68,7 @@ export const HowWorks = () => {
     <section className='how-works'>
       <div className="content">
         <h2>¿Cómo funciona?</h2>
-        <p>¡Con <span className="font-bold">Inyob</span> el proceso es múy fácil!</p>
+        <p>¡Con <span className="font-bold">inyob</span> el proceso es múy fácil!</p>
 
         <div className='how-works-carousel mobile'>
           <div className="carousel-container">
@@ -102,7 +102,7 @@ export const HowWorks = () => {
             <div className='slide-how-works-mob' >
               <div className='slide-content'>
                 <img src={HowImage1} alt="Inyob" />
-                <p><span className='green-text bold'>1.</span> Inicia una conversación con <b>Valeria</b>, tu asistente personal de Inyob. Ella te ayudará a crear un perfil personalizado para encontrar el trabajo perfecto para ti.</p>
+                <p><span className='green-text bold'>1.</span> Inicia una conversación con <b>Valeria</b>, tu asistente personal de inyob. Ella te ayudará a crear un perfil personalizado para encontrar el trabajo perfecto para ti.</p>
               </div>
             </div>
             <div className='slide-how-works-mob' >
@@ -142,12 +142,12 @@ export const HowWorks = () => {
           <div className='how-works-btn' style={{
             backgroundImage: `url(${StartHere})`
           }}>
-            <a className='btn' href="https://wa.link/241l8t" style={{width: "75%"}}>Conversa con Alma</a>
+            <a className='btn' href="https://wa.link/241l8t" style={{ width: "75%" }}>Conversa con Alma</a>
           </div>
           <div className='how-works-content'>
             <h3><span className='green-text bold'>Tu nuevo trabajo en cuestión de días</span> y no en semanas o meses de esfuerzo</h3>
-            <p>En <span className="font-bold">Inyob</span> tu desarrollo profesional se convierte en nuestra prioridad. En el mundo laboral actual, la capacitación y la red de contactos son esenciales para destacar y progresar.</p>
-            <p>En <span className="font-bold">Inyob</span> eres parte de una comunidad que valora y celebra tus logros.</p>
+            <p>En <span className="font-bold">inyob</span> tu desarrollo profesional se convierte en nuestra prioridad. En el mundo laboral actual, la capacitación y la red de contactos son esenciales para destacar y progresar.</p>
+            <p>En <span className="font-bold">inyob</span> eres parte de una comunidad que valora y celebra tus logros.</p>
           </div>
         </div>
       </div>

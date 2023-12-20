@@ -12,7 +12,7 @@ export const Footer = () => {
 
       </div>
       <div className='inyob-footer'>
-        <p>© Inyob. Todos los derechos reservados 2023</p>
+        <p>© inyob. Todos los derechos reservados 2023</p>
       </div>
     </footer>
   )

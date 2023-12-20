@@ -13,7 +13,7 @@ export const Companies = () => {
   return (
     <section className='section-bg-green'>
       <div className='content'>
-        <h2 style={{marginTop: "2em"}}>¡Empresas líderes <br/> confían en <span className="font-bold">Inyob</span>!</h2>
+        <h2 style={{ marginTop: "2em" }}>¡Empresas líderes <br /> confían en <span className="font-bold">inyob</span>!</h2>
       </div>
 
       <div className="companies-logos">
@@ -24,10 +24,10 @@ export const Companies = () => {
         <div className='companies-btn' style={{
           backgroundImage: `url(${BtnImage})`
         }}>
-          <a className='btn' href="https://wa.link/241l8t" style={{width: "75%"}}>¡Encuentra tu trabajo hoy!</a>
+          <a className='btn' href="https://wa.link/241l8t" style={{ width: "75%" }}>¡Encuentra tu trabajo hoy!</a>
         </div>
-        <p style={{color: "#fff"}}>En <span className="font-bold">Inyob</span>, nos tomamos en serio tu búsqueda de empleo y trabajamos con las empresas líderes, representativas de cada ciudad e industria. </p>
-        <p style={{color: "#fff"}}>Las empresas que trabajan con nosotros nos garantizan lo siguiente para ti:</p>
+        <p style={{ color: "#fff" }}>En <span className="font-bold">inyob</span>, nos tomamos en serio tu búsqueda de empleo y trabajamos con las empresas líderes, representativas de cada ciudad e industria. </p>
+        <p style={{ color: "#fff" }}>Las empresas que trabajan con nosotros nos garantizan lo siguiente para ti:</p>
 
         <div className='values'>
           <div className='values-item'>
@@ -51,7 +51,7 @@ export const Companies = () => {
           <div className='values-item'>
             <div className='content-values-item'>
               <div className='values-item-header'>
-                <h3>Selección <br/><span className='green-text'>cuidadosa</span></h3>
+                <h3>Selección <br /><span className='green-text'>cuidadosa</span></h3>
                 <img src={Value3} alt="Respeto" />
               </div>
               <p>No cualquier empresa tiene un espacio en inyob. Seleccionamos a nuestros socios con mucho cuidado, permitiendo solo a las empresas más comprometidas y serias, compartir sus ofertas laborales con nuestra comunidad.</p>
@@ -59,7 +59,7 @@ export const Companies = () => {
           </div>
         </div>
 
-        <h3 style={{marginBottom: "3em"}}>Descubre las oportunidades que estas empresas líderes tienen para ti. Porque en <b>Inyob</b>, sabemos que mereces lo mejor.</h3>
+        <h3 style={{ marginBottom: "3em" }}>Descubre las oportunidades que estas empresas líderes tienen para ti. Porque en <b>inyob</b>, sabemos que mereces lo mejor.</h3>
         {/* <p>Actualmente ofrecemos nuestro servicio en la ciudad de <span className="font-bold">León, Guanajuato</span> y sus alrededores. Pronto nos encontraras en las principales ciudades de México.</p> */}
       </div>
     </section>
