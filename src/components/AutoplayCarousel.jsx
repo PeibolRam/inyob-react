@@ -1,37 +1,57 @@
 import "../styles/Autoplay.css";
-// import { logos } from "../utils/carousel-config";
 import CarouselItem from "./CarouselItem";
-import LogoInyob from '../assets/images/LogoInyob.png'
+import Empresa1 from '../assets/images/Empresa1.png'
+import Empresa2 from '../assets/images/Empresa2.png'
+import Empresa3 from '../assets/images/Empresa3.png'
+import Empresa4 from '../assets/images/Empresa4.png'
+import Empresa5 from '../assets/images/Empresa5.png'
+import Empresa6 from '../assets/images/Empresa6.png'
+import Empresa7 from '../assets/images/Empresa7.png'
+import Empresa8 from '../assets/images/Empresa8.png'
+import Empresa9 from '../assets/images/Empresa9.png'
+import Empresa10 from '../assets/images/Empresa10.png'
 
 export default function AutoplayCarousel() {
   const logos = [
     {
-      imgUrl: `${LogoInyob}`,
+      imgUrl: `${Empresa1}`,
       title: "Text 1"
     },
     {
-      imgUrl: `${LogoInyob}`,
+      imgUrl: `${Empresa2}`,
       title: "Text 2"
     },
     {
-      imgUrl: `${LogoInyob}`,
+      imgUrl: `${Empresa3}`,
       title: "Text 3"
     },
     {
-      imgUrl: `${LogoInyob}`,
+      imgUrl: `${Empresa4}`,
       title: "Text 4"
     },
     {
-      imgUrl: `${LogoInyob}`,
+      imgUrl: `${Empresa5}`,
       title: "Text 5"
     },
     {
-      imgUrl: `${LogoInyob}`,
+      imgUrl: `${Empresa6}`,
       title: "Text 6"
     },
     {
-      imgUrl: `${LogoInyob}`,
+      imgUrl: `${Empresa7}`,
       title: "Text 7",
+    },
+    {
+      imgUrl: `${Empresa8}`,
+      title: "Text 8",
+    },
+    {
+      imgUrl: `${Empresa9}`,
+      title: "Text 9",
+    },
+    {
+      imgUrl: `${Empresa10}`,
+      title: "Text 10",
     }
   ]
 

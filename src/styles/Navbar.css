@@ -1,13 +1,124 @@
 nav {
+  position: sticky;
+  top: 0;
+  z-index: 9999999;
+
+}
+
+.navbar {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
   padding: 1em 0;
-  width: 100%;
+  max-width: 100%;
   background-color: #fff;
-  position: sticky;
+  position: relative;
+}
+
+.navigation {
+  display: none;
+}
+
+/* Position and sizing of burger button */
+.bm-burger-button {
+  position: fixed;
+  width: 36px;
+  height: 30px;
+  right: 16px;
+  top: 10px;
+}
+
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+  background: #373a47;
+}
+
+/* Color/shape of burger icon bars on hover*/
+.bm-burger-bars-hover {
+  background: #6ED04F;
+}
+
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+  height: 24px;
+  width: 24px;
+}
+
+/* Color/shape of close button cross */
+.bm-cross {
+  background: #bdc3c7;
+}
+
+/*
+Sidebar wrapper styles
+Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
+*/
+.bm-menu-wrap {
+  position: fixed;
+  height: 100%;
   top: 0;
-  z-index: 9999999;
+}
+
+/* General sidebar styles */
+.bm-menu {
+  background: #f5f9f4;
+  padding: 2.5em 1.5em 0;
+  font-size: 1.15em;
+}
+
+/* Morph shape necessary with bubble or elastic */
+.bm-morph-shape {
+  fill: #373a47;
+}
+
+/* Wrapper for item list */
+.bm-item-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.bm-item-list a {
+  color: #000;
+  margin: 0.5em auto;
+}
+
+/* Individual item */
+.bm-item {
+  display: inline-block;
+}
+
+
+@media (min-width: 768px) {
+  .navbar {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1em 2em;
+  }
+
+  .navigation {
+    display: flex;
+  }
+
+  .navigation ul {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+  }
+
+  .navigation ul li {
+    margin: 0 1em;
+  }
+
+  .navigation ul li a {
+    color: #6ED04F;
+  }
+
+  .hamburger-menu {
+    display: none;
+  }
+
 }

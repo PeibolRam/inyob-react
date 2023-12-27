@@ -144,6 +144,19 @@ h4 {
   margin: 1em;
 }
 
+.title-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.title-section h2 {
+  margin-top: 1em;
+  margin-bottom: 0;
+}
+
 @media (min-width: 768px) {
   .mobile {
     display: none;
@@ -170,6 +183,28 @@ footer {
   padding: 2em;
 }
 
+.footer-navigation {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-navigation a {
+  color: #000;
+  margin: 0.5em auto;
+}
+
+@media (min-width: 768px) {
+  .footer-navigation {
+    flex-direction: row;
+  }
+
+  .footer-navigation a {
+    margin: 0.5em;
+  }
+}
+
 .inyob-footer {
   background: #3a3a3a;
   width: 100%;
@@ -183,4 +218,91 @@ footer {
 .inyob-footer p {
   color: #fff;
   font-size: 14px;
+}
+
+.page-hero img {
+  width: 100%;
+  min-height: 200px;
+  object-fit: cover;
+}
+
+.page-mid {
+  margin: 2em 0;
+}
+
+.empleados-bottom ul {
+  padding: 0;
+}
+
+.empleados-right ul li {
+  text-align: right;
+}
+
+.loader-container {
+  width: 100%;
+  min-height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.loader {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+  border: 3px solid;
+  border-color: #555555 #555555 transparent transparent;
+  box-sizing: border-box;
+  animation: rotation 1s linear infinite;
+}
+
+.loader::after,
+.loader::before {
+  content: '';
+  box-sizing: border-box;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  border: 3px solid;
+  border-color: transparent transparent #6ED04F #6ED04F;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  box-sizing: border-box;
+  animation: rotationBack 0.5s linear infinite;
+  transform-origin: center center;
+}
+
+.loader::before {
+  width: 32px;
+  height: 32px;
+  border-color: #555555 #555555 transparent transparent;
+  animation: rotation 1.5s linear infinite;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes rotationBack {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(-360deg);
+  }
 }

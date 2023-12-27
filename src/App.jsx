@@ -1,24 +1,26 @@
 import './App.css'
-import { Hero } from './components/Hero'
-import { Find } from './components/Find'
-import { HowWorks } from './components/HowWorks'
-import { WhyJoin } from './components/WhyJoin'
-import { Invite } from './components/Invite'
-import { Companies } from './components/Companies'
-import { Reviews } from './components/Reviews'
+import Navbar from './components/Navbar.jsx'
+import { Footer } from './components/Footer.jsx'
+import { Home } from './pages/Home.jsx'
+import { About } from './pages/About.jsx'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { Empleados } from './pages/Empleados.jsx'
+import { Empresas } from './pages/Empresas.jsx'
+
 
 function App() {
 
   return (
-    <main>
-      <Hero />
-      <Find />
-      <HowWorks />
-      <WhyJoin />
-      <Invite />
-      <Companies />
-      <Reviews />
-    </main>
+    <BrowserRouter>
+      <Navbar />
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='/abuot' element={<About />} />
+        <Route path='/empleados' element={<Empleados />} />
+        <Route path='/empresas' element={<Empresas />} />
+      </Routes>
+      <Footer />
+    </BrowserRouter>
   )
 }
 

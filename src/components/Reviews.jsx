@@ -1,5 +1,4 @@
 import { useState } from 'react'
-import Ana from '../assets/images/AnaGarcia.png'
 import Carpintero from '../assets/images/Carpintero.png'
 import Asesora from '../assets/images/Asesora.png'
 import Tecnico from '../assets/images/Tecnico.png'
@@ -65,8 +64,10 @@ export const Reviews = () => {
   return (
     <section className='section reviews-section'>
       <div className="content">
-        <h2>Lo que dice <span className='green-text'>nuestra comunidad</span> sobre nosotros:</h2>
-        <p>Actualmente ofrecemos nuestro servicio en la ciudad de <b>León, Guanajuato</b> y sus alrededores. Pronto nos encontraras en las principales ciudades de México.</p>
+        <div className='title-section'>
+          <h2>Lo que dice <span className='green-text'>nuestra comunidad</span> sobre nosotros:</h2>
+          <p>Actualmente ofrecemos nuestro servicio en la ciudad de <b>León, Guanajuato</b> y sus alrededores. Pronto nos encontraras en las principales ciudades de México.</p>
+        </div>
 
         <div className='reviews-carousel mobile'>
           <div className="carousel-container">

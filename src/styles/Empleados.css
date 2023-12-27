@@ -1,0 +1,33 @@
+.empleados-title h3 {
+  color: #000;
+  font-weight: bold;
+}
+
+.empleados-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+}
+
+.empleados-grid-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .empleados-grid-item {
+    flex-direction: row;
+    justify-content: flex-start;
+    text-align: left;
+  }
+
+  .empleados-grid-item img {
+    margin: 0 1em;
+    width: 10%;
+  }
+}

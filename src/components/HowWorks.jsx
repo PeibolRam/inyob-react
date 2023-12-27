@@ -67,8 +67,10 @@ export const HowWorks = () => {
   return (
     <section className='how-works'>
       <div className="content">
-        <h2>¿Cómo funciona?</h2>
-        <p>¡Con <span className="font-bold">inyob</span> el proceso es múy fácil!</p>
+        <div className='title-section'>
+          <h2>¿Cómo funciona?</h2>
+          <p>¡Con <span className="font-bold">inyob</span> el proceso es múy fácil!</p>
+        </div>
 
         <div className='how-works-carousel mobile'>
           <div className="carousel-container">

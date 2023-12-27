@@ -13,7 +13,9 @@ export const Companies = () => {
   return (
     <section className='section-bg-green'>
       <div className='content'>
-        <h2 style={{ marginTop: "2em" }}>¡Empresas líderes <br /> confían en <span className="font-bold">inyob</span>!</h2>
+        <div className='title-section'>
+          <h2 style={{ marginTop: "2em" }}>¡Empresas líderes <br /> confían en <span className="font-bold">inyob</span>!</h2>
+        </div>
       </div>
 
       <div className="companies-logos">
