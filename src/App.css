@@ -18,6 +18,10 @@ main {
   overflow: hidden;
 }
 
+section {
+  padding: 2em 0;
+}
+
 a {
   text-decoration: none;
 }
@@ -232,6 +236,10 @@ footer {
 
 .empleados-bottom ul {
   padding: 0;
+}
+
+.empleados-bottom ul li h4 {
+  font-weight: bold;
 }
 
 .empleados-right ul li {

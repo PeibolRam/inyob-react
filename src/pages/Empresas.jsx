@@ -5,7 +5,7 @@ export const Empresas = () => {
     <>
       <section className='content'>
         <div className='title-section'>
-          <h1>Dé el salto hacia una estrategia de reclutamiento más inteligente, eficiente y rentable. Conviértase en líder de su industria al contar con el mejor talento, de la mano de inyob. ¡Hablemos!</h1>
+          <h2>Dé el salto hacia una estrategia de reclutamiento más inteligente, eficiente y rentable. Conviértase en líder de su industria al contar con el mejor talento, de la mano de inyob. ¡Hablemos!</h2>
 
         </div>
         <HubspotForm

@@ -77,7 +77,7 @@ export const Empleados = () => {
             </li>
           </ul>
         </div>
-        <div className='empleados-bottom empleados-right'>
+        <div className='empleados-bottom empleados-left'>
           <ul>
             <li>
               <h4>• Estrategia de Captación Expansiva:</h4>
