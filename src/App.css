@@ -224,6 +224,10 @@ footer {
   font-size: 14px;
 }
 
+.page-hero {
+  margin-top: 80px;
+}
+
 .page-hero img {
   width: 100%;
   min-height: 200px;

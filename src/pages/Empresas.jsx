@@ -5,7 +5,7 @@ import '../styles/Empresas.css'
 export const Empresas = () => {
   return (
     <>
-      <section className='empresas-content'>
+      <section className='empresas-content page-hero'>
         <div className='content'>
           <div className='title-section'>
             <h2 style={{ color: '#fff' }}>Dá el salto hacia una estrategia de reclutamiento más inteligente, eficiente y rentable. Conviértete en líder de tu industria al contar con el mejor talento, de la mano de inyob. ¡Hablemos!</h2>
