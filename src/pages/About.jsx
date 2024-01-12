@@ -2,6 +2,7 @@ import ImageHero from '../assets/images/about-hero.png'
 import '../styles/About.css'
 
 export const About = () => {
+
   return (
     <>
       <section className='page-hero about-hero'>

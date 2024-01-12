@@ -7,7 +7,7 @@ import '../styles/Hero.css'
 
 export const Hero = () => {
   return (
-    <section className='hero'>
+    <section className='hero' id='home'>
       <div className="content hero-container">
         <div className='hero-content'>
           <img className='psn-abs' src={heroVector} alt="inyob" />

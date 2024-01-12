@@ -4,6 +4,10 @@
   font-family: 'Heebo', sans-serif;
 }
 
+#root {
+  overflow: hidden;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -16,10 +20,6 @@ main {
   text-align: center;
   position: relative;
   overflow: hidden;
-}
-
-section {
-  padding: 0 0 2em;
 }
 
 a {

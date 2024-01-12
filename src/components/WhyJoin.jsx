@@ -2,6 +2,7 @@ import Why1 from '../assets/images/Why1.jpg'
 import '../styles/WhyJoin.css'
 
 export const WhyJoin = () => {
+
   return (
     <section className="why-join">
       <div className='parallax-join'
@@ -11,9 +12,9 @@ export const WhyJoin = () => {
       >
         <div className='overlay'>
           <div className="content">
-          <div className='title-section'>
-            <h2>¿Por qué unirte <br /> a <span className='green-text'>nuestra red?</span></h2>
-          </div>
+            <div className='title-section'>
+              <h2>¿Por qué unirte <br /> a <span className='green-text'>nuestra red?</span></h2>
+            </div>
             <div className='why-join-content'>
               <div className='why-join-item align-left'>
                 <h4 className='green-text'>Educación Continua</h4>
