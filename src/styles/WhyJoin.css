@@ -3,7 +3,6 @@
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-
   color: white;
   min-height: 700px;
 }
@@ -51,5 +50,9 @@
   .why-join-item {
     width: 30%;
     text-align: center;
+  }
+
+  .parallax-join {
+    background-attachment: fixed;
   }
 }
