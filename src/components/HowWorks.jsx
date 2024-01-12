@@ -17,7 +17,7 @@ export const HowWorks = () => {
     <div key={1} className='slide-how-works-mob' >
       <div className='slide-content'>
         <img src={HowImage1} alt="Inyob" />
-        <p><span className='green-text bold'>1.</span> Inicia una conversación con <b>Valeria</b>, tu asistente personal de inyob. Ella te ayudará a crear un perfil personalizado para encontrar el trabajo perfecto para ti.</p>
+        <p><span className='green-text bold'>1.</span> Inicia una conversación con <b>Alma</b>, tu asistente personal de inyob. Ella te ayudará a crear un perfil personalizado para encontrar el trabajo perfecto para ti.</p>
       </div>
     </div>,
     <div key={2} className='slide-how-works-mob' >
@@ -104,7 +104,7 @@ export const HowWorks = () => {
             <div className='slide-how-works-mob' >
               <div className='slide-content'>
                 <img src={HowImage1} alt="Inyob" />
-                <p><span className='green-text bold'>1.</span> Inicia una conversación con <b>Valeria</b>, tu asistente personal de inyob. Ella te ayudará a crear un perfil personalizado para encontrar el trabajo perfecto para ti.</p>
+                <p><span className='green-text bold'>1.</span> Inicia una conversación con <b>Alma</b>, tu asistente personal de inyob. Ella te ayudará a crear un perfil personalizado para encontrar el trabajo perfecto para ti.</p>
               </div>
             </div>
             <div className='slide-how-works-mob' >
