@@ -13,8 +13,8 @@ export const Footer = () => {
         </div>
         <div className='footer-navigation'>
           <Link to="/abuot" onClick={() => scrollToTop()}>Sobre nosotros</Link>
-          <Link to="/empleados" onClick={() => scrollToTop()}>Empleados</Link>
           <Link to="/empresas" onClick={() => scrollToTop()}>Empresas</Link>
+          <Link to="/hablemos" onClick={() => scrollToTop()}>Contacto</Link>
         </div>
       </div>
       <div className='inyob-footer'>

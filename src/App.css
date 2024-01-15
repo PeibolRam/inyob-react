@@ -229,12 +229,11 @@ footer {
 }
 
 .page-hero {
-  margin-top: 80px;
+  margin-top: 90px;
 }
 
 .page-hero img {
   width: 100%;
-  min-height: 200px;
   object-fit: cover;
 }
 

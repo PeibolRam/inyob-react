@@ -18,7 +18,8 @@ nav {
   position: relative;
 }
 
-.logo img {
+.logo img,
+.logo-hamburger img {
   width: 150px;
   object-fit: contain;
 }
@@ -85,6 +86,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  position: static;
 }
 
 .bm-item-list a {

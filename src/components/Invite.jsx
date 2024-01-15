@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import Why2 from '../assets/images/why2.png'
-import Tienda from '../assets/images/tienda.png'
+import Tienda from '../assets/images/tiendas.jpg'
 import Turismo from '../assets/images/Turismo.jpg'
 import Logistica from '../assets/images/Logistica.jpg'
 import Construccion from '../assets/images/Construccion.jpg'
@@ -14,15 +14,6 @@ export const Invite = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const content = [
-    <div className='vacante' key={1}>
-      <img src={Tienda} className='vacante-img' alt="Inyob" />
-      <h3>Tiendas</h3>
-      <ul>
-        <li>✅ Vendedor o Asesor de Ventas</li>
-        <li>✅ Almacenista</li>
-        <li>✅ Gerente de Tienda</li>
-      </ul>
-    </div>,
     <div className='vacante' key={2}>
       <img src={Logistica} className='vacante-img' alt="Inyob" />
       <h3>Logística</h3>
@@ -30,6 +21,15 @@ export const Invite = () => {
         <li>✅ Conductor de camiones</li>
         <li>✅ Operador de montacargas</li>
         <li>✅ Gestor de inventarios</li>
+      </ul>
+    </div>,
+    <div className='vacante' key={1}>
+      <img src={Tienda} className='vacante-img' alt="Inyob" />
+      <h3>Tiendas</h3>
+      <ul>
+        <li>✅ Vendedor o Asesor de Ventas</li>
+        <li>✅ Almacenista</li>
+        <li>✅ Gerente de Tienda</li>
       </ul>
     </div>,
     <div className='vacante' key={3}>
@@ -125,21 +125,21 @@ export const Invite = () => {
         <div className='desktop'>
           <div className='vacantes'>
             <div className='vacante'>
-              <img src={Tienda} className='vacante-img' alt="Inyob" />
-              <h3>Tiendas</h3>
-              <ul>
-                <li>✅ Vendedor o Asesor de Ventas</li>
-                <li>✅ Almacenista</li>
-                <li>✅ Gerente de Tienda</li>
-              </ul>
-            </div>
-            <div className='vacante'>
               <img src={Logistica} className='vacante-img' alt="Inyob" />
               <h3>Logística</h3>
               <ul>
                 <li>✅ Conductor de camiones</li>
                 <li>✅ Operador de montacargas</li>
                 <li>✅ Gestor de inventarios</li>
+              </ul>
+            </div>
+            <div className='vacante'>
+              <img src={Tienda} className='vacante-img' alt="Inyob" />
+              <h3>Tiendas</h3>
+              <ul>
+                <li>✅ Vendedor o Asesor de Ventas</li>
+                <li>✅ Almacenista</li>
+                <li>✅ Gerente de Tienda</li>
               </ul>
             </div>
             <div className='vacante'>

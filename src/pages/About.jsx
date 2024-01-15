@@ -1,4 +1,4 @@
-import ImageHero from '../assets/images/about-hero.png'
+import ImageHero from '../assets/images/about.jpg'
 import '../styles/About.css'
 
 export const About = () => {

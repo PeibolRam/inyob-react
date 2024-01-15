@@ -32,22 +32,22 @@ function Navbar() {
               <Link to="/abuot" onClick={() => scrollToTop()}>Sobre nosotros</Link>
             </li>
             <li>
-              <Link to="/empleados" onClick={() => scrollToTop()}>Empleados</Link>
+              <Link to="/empresas" onClick={() => scrollToTop()}>Empresas</Link>
             </li>
             <li>
-              <Link to="/empresas" onClick={() => scrollToTop()}>Empresas</Link>
+              <Link to="/hablemos" onClick={() => scrollToTop()}>Contacto</Link>
             </li>
           </ul>
         </div>
 
         <div className='hamburger-menu'>
           <Menu right onOpen={handleOnOpen} isOpen={menuOpen} onClose={handleOnClose}>
-            <Link to="/" onClick={handleOnClose}>
+            <Link to="/" className='logo-hamburger' onClick={handleOnClose}>
               <img src={Logo} alt="Inyob logo" />
             </Link>
             <Link to="/abuot" onClick={handleOnClose}>Sobre nosotros</Link>
-            <Link to="/empleados" onClick={handleOnClose}>Empleados</Link>
             <Link to="/empresas" onClick={handleOnClose}>Empresas</Link>
+            <Link to="/hablemos" onClick={handleOnClose}>Contacto</Link>
           </Menu>
         </div>
 
