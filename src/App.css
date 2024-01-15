@@ -187,6 +187,10 @@ footer {
   padding: 2em;
 }
 
+.footer-logo img {
+  width: 150px;
+}
+
 .footer-navigation {
   display: flex;
   flex-direction: column;

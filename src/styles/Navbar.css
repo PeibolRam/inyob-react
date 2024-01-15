@@ -18,6 +18,11 @@ nav {
   position: relative;
 }
 
+.logo img {
+  width: 150px;
+  object-fit: contain;
+}
+
 .navigation {
   display: none;
 }

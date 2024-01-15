@@ -1,4 +1,4 @@
-import Logo from '../assets/images/logoinyob.svg'
+import Logo from '../assets/images/inyobslogan.png'
 import { Link } from 'react-router-dom'
 import { scrollToTop } from '../utils/utils'
 
