@@ -1,3 +1,4 @@
+import { LazyLoadImage } from "react-lazy-load-image-component";
 import EmpleadosHero from '../assets/images/we-are-hiring.jpg'
 import EmpleadosGrid1 from '../assets/images/Empleados1.png'
 import EmpleadosGrid2 from '../assets/images/Empleados2.png'
@@ -14,7 +15,7 @@ export const Empresas = () => {
   return (
     <>
       <section className='page-hero'>
-        <img src={EmpleadosHero} alt="Empleados" />
+        <LazyLoadImage src={EmpleadosHero} effect="blur" alt="Empleados" />
       </section>
       <section className='content'>
         <div className='title-section empleados-title'>

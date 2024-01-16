@@ -1,4 +1,5 @@
 import ImageHero from '../assets/images/about.jpg'
+import { LazyLoadImage } from "react-lazy-load-image-component";
 import '../styles/About.css'
 
 export const About = () => {
@@ -6,7 +7,7 @@ export const About = () => {
   return (
     <>
       <section className='page-hero about-hero'>
-        <img src={ImageHero} alt="About" />
+        <LazyLoadImage src={ImageHero} effect="blur" alt="About" />
       </section>
       <section className='about content'>
         <div className="about-content">
