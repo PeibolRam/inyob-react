@@ -8,6 +8,8 @@ import { Hablemos } from './pages/Hablemos.jsx'
 import { Empresas } from './pages/Empresas.jsx'
 import { Helmet } from 'react-helmet';
 import LogoSlogan from './assets/images/inyobslogan.png'
+import { Terminos } from './pages/Terminos.jsx'
+import { Aviso } from './pages/Aviso.jsx'
 
 
 function App() {
@@ -25,6 +27,9 @@ function App() {
         <Route path='/abuot' element={<About />} />
         <Route path='/empresas' element={<Empresas />} />
         <Route path='/hablemos' element={<Hablemos />} />
+        <Route path='/terminos' element={<Terminos />} />
+        <Route path='/aviso' element={<Aviso />} />
+
       </Routes>
       <Footer />
     </BrowserRouter>

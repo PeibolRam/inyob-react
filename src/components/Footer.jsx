@@ -15,6 +15,9 @@ export const Footer = () => {
           <Link to="/abuot" onClick={() => scrollToTop()}>Sobre nosotros</Link>
           <Link to="/empresas" onClick={() => scrollToTop()}>Empresas</Link>
           <Link to="/hablemos" onClick={() => scrollToTop()}>Contacto</Link>
+          <Link to="/terminos" onClick={() => scrollToTop()}>Términos y condiciones</Link>
+          <Link to="/aviso" onClick={() => scrollToTop()}>Aviso de privacidad</Link>
+
         </div>
       </div>
       <div className='inyob-footer'>
