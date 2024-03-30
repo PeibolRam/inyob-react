@@ -10,10 +10,9 @@ import { Helmet } from 'react-helmet';
 import LogoSlogan from './assets/images/inyobslogan.png'
 import { Terminos } from './pages/Terminos.jsx'
 import { Aviso } from './pages/Aviso.jsx'
-
+import { Gracias } from './pages/Gracias.jsx'
 
 function App() {
-
   return (
     <BrowserRouter>
       <Helmet>
@@ -29,7 +28,7 @@ function App() {
         <Route path='/hablemos' element={<Hablemos />} />
         <Route path='/terminos' element={<Terminos />} />
         <Route path='/aviso' element={<Aviso />} />
-
+        <Route path='/gracias' element={<Gracias />} />
       </Routes>
       <Footer />
     </BrowserRouter>
